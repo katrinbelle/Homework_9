@@ -5,10 +5,10 @@ N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1" */
 
 void OutNumber(int n)
 {
-    if (n>=1)
+    if (n >= 1)
     {
-    Console.Write($"{n} ");
-    OutNumber(n-1);
-}
+        Console.Write($"{n} ");
+        OutNumber(n - 1);
+    }
 }
 OutNumber(5);
